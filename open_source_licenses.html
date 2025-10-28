@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Mom - 오픈소스 라이선스 / Open Source Licenses</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #E91E63;
+            border-bottom: 3px solid #E91E63;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #E91E63;
+            margin-top: 30px;
+            border-bottom: 1px solid #E91E63;
+            padding-bottom: 5px;
+        }
+        .package {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            border-left: 4px solid #E91E63;
+        }
+        .package-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #E91E63;
+            margin-bottom: 5px;
+        }
+        .package-version {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .package-license {
+            color: #333;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+        .package-description {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .package-url {
+            color: #2196F3;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .package-url:hover {
+            text-decoration: underline;
+        }
+        .intro {
+            background-color: #fff3e0;
+            padding: 15px;
+            border-left: 4px solid #E91E63;
+            margin: 20px 0;
+        }
+        .section-divider {
+            margin: 40px 0;
+            border: none;
+            border-top: 2px solid #E91E63;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>오픈소스 라이선스 / Open Source Licenses</h1>
+
+        <div class="intro">
+            <p><strong>한국어:</strong> Dear Mom 앱은 아래 나열된 오픈소스 라이브러리를 사용합니다. 각 라이브러리의 저작권 및 라이선스 정보는 다음과 같습니다.</p>
+            <p><strong>English:</strong> The Dear Mom app uses the open source libraries listed below. Copyright and license information for each library is as follows.</p>
+        </div>
+
+        <h2>Flutter SDK</h2>
+        <div class="package">
+            <div class="package-name">Flutter</div>
+            <div class="package-description">Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://github.com/flutter/flutter" class="package-url" target="_blank">https://github.com/flutter/flutter</a>
+        </div>
+
+        <h2>State Management</h2>
+        <div class="package">
+            <div class="package-name">flutter_riverpod</div>
+            <div class="package-version">Version: ^2.6.1</div>
+            <div class="package-description">A simple way to access state from anywhere in your application while robust and testable.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/flutter_riverpod" class="package-url" target="_blank">https://pub.dev/packages/flutter_riverpod</a>
+        </div>
+
+        <h2>Local Database</h2>
+        <div class="package">
+            <div class="package-name">hive</div>
+            <div class="package-version">Version: ^2.2.3</div>
+            <div class="package-description">Hive is a lightweight and blazing fast key-value database written in pure Dart.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/hive" class="package-url" target="_blank">https://pub.dev/packages/hive</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">hive_flutter</div>
+            <div class="package-version">Version: ^1.1.0</div>
+            <div class="package-description">Extension for Hive with Flutter support.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/hive_flutter" class="package-url" target="_blank">https://pub.dev/packages/hive_flutter</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">path_provider</div>
+            <div class="package-version">Version: ^2.1.5</div>
+            <div class="package-description">A Flutter plugin for finding commonly used locations on the filesystem.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/path_provider" class="package-url" target="_blank">https://pub.dev/packages/path_provider</a>
+        </div>
+
+        <h2>Utilities</h2>
+        <div class="package">
+            <div class="package-name">intl</div>
+            <div class="package-version">Version: ^0.20.2</div>
+            <div class="package-description">Contains code to deal with internationalized/localized messages, date and number formatting and parsing.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/intl" class="package-url" target="_blank">https://pub.dev/packages/intl</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">uuid</div>
+            <div class="package-version">Version: ^4.5.1</div>
+            <div class="package-description">RFC4122 (v1, v4, v5) UUID Generator and Parser for all Dart platforms.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/uuid" class="package-url" target="_blank">https://pub.dev/packages/uuid</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">path</div>
+            <div class="package-version">Version: ^1.9.0</div>
+            <div class="package-description">A string-based path manipulation library for Dart.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/path" class="package-url" target="_blank">https://pub.dev/packages/path</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">shared_preferences</div>
+            <div class="package-version">Version: ^2.5.3</div>
+            <div class="package-description">Flutter plugin for reading and writing simple key-value pairs.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/shared_preferences" class="package-url" target="_blank">https://pub.dev/packages/shared_preferences</a>
+        </div>
+
+        <h2>Image Handling</h2>
+        <div class="package">
+            <div class="package-name">image_picker</div>
+            <div class="package-version">Version: ^1.1.2</div>
+            <div class="package-description">A Flutter plugin for iOS and Android for picking images from the image library, and taking new pictures with the camera.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/image_picker" class="package-url" target="_blank">https://pub.dev/packages/image_picker</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">flutter_image_compress</div>
+            <div class="package-version">Version: ^2.3.0</div>
+            <div class="package-description">Compress image with native code.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/flutter_image_compress" class="package-url" target="_blank">https://pub.dev/packages/flutter_image_compress</a>
+        </div>
+
+        <h2>Charts & Visualization</h2>
+        <div class="package">
+            <div class="package-name">fl_chart</div>
+            <div class="package-version">Version: ^0.69.2</div>
+            <div class="package-description">A powerful Flutter chart library currently supporting Line Chart, Bar Chart, Pie Chart, Scatter Chart and Radar Chart.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/fl_chart" class="package-url" target="_blank">https://pub.dev/packages/fl_chart</a>
+        </div>
+
+        <h2>Calendar & UI Components</h2>
+        <div class="package">
+            <div class="package-name">table_calendar</div>
+            <div class="package-version">Version: ^3.1.2</div>
+            <div class="package-description">Highly customizable, feature-packed Flutter Calendar with gestures, animations and multiple formats.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/table_calendar" class="package-url" target="_blank">https://pub.dev/packages/table_calendar</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">modal_bottom_sheet</div>
+            <div class="package-version">Version: 3.0.0</div>
+            <div class="package-description">Create awesome and powerful modal bottom sheets.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/modal_bottom_sheet" class="package-url" target="_blank">https://pub.dev/packages/modal_bottom_sheet</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">carousel_slider</div>
+            <div class="package-version">Version: ^5.0.0</div>
+            <div class="package-description">A carousel slider widget, support infinite scroll and custom child widget.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/carousel_slider" class="package-url" target="_blank">https://pub.dev/packages/carousel_slider</a>
+        </div>
+
+        <h2>File Handling & Sharing</h2>
+        <div class="package">
+            <div class="package-name">file_picker</div>
+            <div class="package-version">Version: ^8.1.4</div>
+            <div class="package-description">A package that allows you to use the native file explorer to pick single or multiple files.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/file_picker" class="package-url" target="_blank">https://pub.dev/packages/file_picker</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">share_plus</div>
+            <div class="package-version">Version: ^10.1.3</div>
+            <div class="package-description">A Flutter plugin to share content from your Flutter app via the platform's share dialog.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/share_plus" class="package-url" target="_blank">https://pub.dev/packages/share_plus</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">permission_handler</div>
+            <div class="package-version">Version: ^11.3.1</div>
+            <div class="package-description">Permission plugin for Flutter. This plugin provides a cross-platform API to request and check permissions.</div>
+            <div class="package-license">License: MIT License</div>
+            <a href="https://pub.dev/packages/permission_handler" class="package-url" target="_blank">https://pub.dev/packages/permission_handler</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">archive</div>
+            <div class="package-version">Version: ^3.6.1</div>
+            <div class="package-description">Provides encoders and decoders for various archive and compression formats.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/archive" class="package-url" target="_blank">https://pub.dev/packages/archive</a>
+        </div>
+
+        <h2>Development Dependencies</h2>
+        <div class="package">
+            <div class="package-name">build_runner</div>
+            <div class="package-version">Version: ^2.4.13</div>
+            <div class="package-description">A build system for Dart code generation and modular compilation.</div>
+            <div class="package-license">License: BSD 3-Clause License</div>
+            <a href="https://pub.dev/packages/build_runner" class="package-url" target="_blank">https://pub.dev/packages/build_runner</a>
+        </div>
+
+        <div class="package">
+            <div class="package-name">hive_generator</div>
+            <div class="package-version">Version: ^2.0.1</div>
+            <div class="package-description">Extension for Hive. Automatically generates TypeAdapters to store any class.</div>
+            <div class="package-license">License: Apache License 2.0</div>
+            <a href="https://pub.dev/packages/hive_generator" class="package-url" target="_blank">https://pub.dev/packages/hive_generator</a>
+        </div>
+
+        <hr class="section-divider">
+
+        <h2>주요 라이선스 전문 / Full License Texts</h2>
+
+        <h3>MIT License</h3>
+        <pre style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 0.85em;">
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+        </pre>
+
+        <h3>BSD 3-Clause License</h3>
+        <pre style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 0.85em;">
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        </pre>
+
+        <h3>Apache License 2.0</h3>
+        <pre style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; overflow-x: auto; font-size: 0.85em;">
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Full license text: https://www.apache.org/licenses/LICENSE-2.0
+        </pre>
+
+        <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
+        <p style="text-align: center; color: #999; margin-top: 20px;">
+            © 2025 Dear Mom. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
