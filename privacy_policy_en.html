@@ -74,7 +74,7 @@
 <body>
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p class="update-date">Last Updated: October 28, 2025</p>
+        <p class="update-date">Last Updated: October 29, 2025</p>
 
         <div class="important">
             <strong>Important:</strong> Dear Mom stores all data locally on your device and does not transmit any personal information to external servers.
@@ -183,12 +183,38 @@
 
         <h2>12. Measures to Ensure Security of Personal Information</h2>
         <p>Dear Mom protects personal information through the following technical and administrative measures:</p>
+
+        <h3>12.1 Technical Protection Measures</h3>
         <ul>
             <li><strong>Local storage:</strong> All data is stored only on your device with no network transmission</li>
             <li><strong>App sandboxing:</strong> Protected by the operating system's app isolation features</li>
             <li><strong>Access restrictions:</strong> Other apps or processes cannot access your data</li>
-            <li><strong>Encrypted storage:</strong> Utilizes Hive database's built-in security features</li>
+            <li><strong>AES-256 Encryption:</strong> Sensitive personal information is encrypted using AES-256-CBC algorithm
+                <ul>
+                    <li>Baby names and photo paths</li>
+                    <li>Diary titles, content, and photo paths</li>
+                    <li>Other personally identifiable information</li>
+                </ul>
+            </li>
+            <li><strong>Encryption Key Management:</strong>
+                <ul>
+                    <li>Encryption keys are securely stored in device secure storage (iOS Keychain, Android EncryptedSharedPreferences)</li>
+                    <li>Each device automatically generates unique encryption keys</li>
+                    <li>Encryption keys are never transmitted or exposed outside the app</li>
+                </ul>
+            </li>
         </ul>
+
+        <h3>12.2 Backup Data Encryption</h3>
+        <ul>
+            <li>Backup files also contain data in encrypted form</li>
+            <li>When restoring backup files to another device, data cannot be decrypted without the original device's encryption key</li>
+            <li>Backup files do not contain plain text personal information</li>
+        </ul>
+
+        <div class="important">
+            <strong>Encryption Notice:</strong> If you lose your device or delete the app, the encryption keys are also deleted, making data recovery impossible. Please regularly back up important data and store backup files in a secure location.
+        </div>
 
         <h2>13. Protection of Children's Personal Information</h2>
         <p>Dear Mom takes the following measures to protect children's (under 14 years old) information:</p>
